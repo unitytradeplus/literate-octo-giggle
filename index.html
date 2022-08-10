@@ -89,7 +89,7 @@ body, html {
 <script>
  localStorage.setItem('isAuth',false)
     window.addEventListener('DOMContentLoaded', (event) => {
-       if(localStorage.getItem('isAuth')) {
+       if(localStorage.getItem('isAuth')===true) {
         document.getElementById('p1').className = 'w3-bar-item w3-button'
         document.getElementById('p2').className = 'w3-bar-item w3-button'
         document.getElementById('p1s').className = 'w3-bar-item w3-button'
